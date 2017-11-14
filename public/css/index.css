@@ -1,0 +1,102 @@
+
+/*1200宽度以下*/
+@media all and (max-width: 1260px){
+    #content .row{
+        width:840px;
+    }
+
+    #content .zt{
+        width: 400px;
+    }
+
+    #content .img{
+        width: 400px;
+    }
+    #footbox{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+@media all and (max-width: 840px){
+    #content .row{
+        width:420px;
+    }
+
+    #content .zt{
+        width: 400px;
+    }
+
+    #content .img{
+        width: 400px;
+    }
+    #footbox{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+/*导航条*/
+
+.navbar li{
+    padding-left: 20px;
+
+}
+.navbar .navbar-right #demo{
+   border: none;
+}
+
+
+/*轮播*/
+#carousel-example-generic .carousel-control{
+    z-index: 1000;
+}
+
+
+
+
+
+
+/*时钟*/
+.contentClock{
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    z-index:100;
+}
+
+/*粒子效果样式*/
+#J_dotLine {
+    display: block;
+    float: left;
+}
+/*画布*/
+#canvasDiv {
+    width: 1200px;
+    font-size: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -5;
+}
+/*文字logo样式*/
+
+#fontMylife p {
+    font-size: 150px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    background-image: url(../imgs/bg4.png);
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

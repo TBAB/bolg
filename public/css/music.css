@@ -1,0 +1,62 @@
+.table tbody tr:hover{
+    color:#eee;
+}
+
+.container .row .col-sm-3{
+    padding-top: 40px;
+}
+
+.music-box{
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    display: none;
+}
+
+img{
+    margin: auto;
+}
+
+.table i{
+    cursor: pointer;
+}
+
+.table tbody tr,.table thead th {
+    font-size: 20px;
+}
+
+.page-header h1{
+    margin-bottom: 20px;
+}
+
+
+
+.play-box{
+    background-color: rgba(000,000,000,0.4  );
+    controls: false;
+}
+.page-header{
+    border-bottom:#eee;
+}
+.play-box>img{
+    -webkit-animation:zq 4s linear infinite;
+    animation:zq 4s linear infinite  ;
+    animation-fill-mode:forwards;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes zq {
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}
+@-o-keyframes zq {
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}
+@-moz-keyframes zq {
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}
+@keyframes zq {
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}
